@@ -12,7 +12,7 @@ I'm Dahui Yeo.
   
 </div>
 
-<div>
+<div align="center">
   
 📝 Studying 📝
   
