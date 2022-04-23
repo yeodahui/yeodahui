@@ -24,19 +24,19 @@ I'm Dahui Yeo.
   
   <div align="left">
     
-    ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ayeodahui&layout=compact)(https://github.com/yeodahui/github-readme-stats)
+    [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yeodahui&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
   
   </div>
   
 📝 Studying 📝
   
-<img src="https://img.shields.io/badge/HTML5-#E34F26?style=flat-square&logo=html5&logoColor=#E34F26"/>
-<img src="https://img.shields.io/badge/CSS3-#1572B6?style=flat-square&logo=css3&logoColor=#1572B6"/>
-<img src="https://img.shields.io/badge/SaSS-#CC6699?style=flat-square&logo=sass&logoColor=#CC6699"/>
-<img src="https://img.shields.io/badge/JavaScript-#F7DF1E?style=flat-square&logo=javascript&logoColor=#F7DF1E"/>
-<img src="https://img.shields.io/badge/React-#F7DF1E?style=flat-square&logo=react&logoColor=#F7DF1E"/>
-<img src="https://img.shields.io/badge/TypeScript-#3178C6?style=flat-square&logo=typescript&logoColor=#3178C6"/>
-<img src="https://img.shields.io/badge/Python-#3776AB?style=flat-square&logo=python&logoColor=#3776AB"/>
+<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>              <!-- HTML -->
+<img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a>                <!-- CSS -->
+<img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=Sass&logoColor=white"/></a>                <!-- CSS -->
+<img src="https://img.shields.io/badge/JavaScript-F7E018?style=flat-square&logo=JavaScript&logoColor=white"/></a>   <!-- JavaScript -->
+<img src="https://img.shields.io/badge/React-F7DF1E?style=flat-square&logo=React&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 <!-- <img src="https://img.shields.io/badge/이름-색상코드?style=flat-square&logo=로고명&logoColor=로고색"/> -->
 </div>
 
