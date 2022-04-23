@@ -1,5 +1,5 @@
 <div align="center" style="overflow: hidden; width: 100%">
-  
+
 
 ### DAHUI YEO
 
@@ -9,7 +9,9 @@
 
 Hi there!👋
 I'm Dahui Yeo.
-  
+
+---
+
 </div>
 
 <div align="center">
@@ -34,4 +36,4 @@ I'm Dahui Yeo.
 
   </div>
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=footer&20render)
+![footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer&20render)
