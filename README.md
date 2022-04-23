@@ -1,16 +1,15 @@
 <div align="center" style="overflow: hidden; width: 100%">
 
-
 ### DAHUI YEO
 
-<a href="https://github.com/yeodahui"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyeodahui&count_bg=%23000000&title_bg=%23000000&icon=github.svg&icon_color=%23E7E7E7&title=+Github&edge_flat=true"/></a> <a href="https://velog.io/@devsaza"><img src="https://img.shields.io/badge/seondal.log-3DDC84?style=flat-square&logo=Velog&logoColor=white"/></a>
+<a href="https://github.com/yeodahui"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyeodahui&count_bg=%23000000&title_bg=%23000000&icon=github.svg&icon_color=%23E7E7E7&title=+Github&edge_flat=true"/></a> <a href="https://velog.io/@devsaza"><img src="https://img.shields.io/badge/devsaza.log-3DDC84?style=flat-square&logo=Velog&logoColor=white"/></a>
 
 ---
 
 Hi there!👋
 I'm Dahui Yeo.
 
----
+<br><br>
 
 </div>
 
@@ -27,7 +26,6 @@ I'm Dahui Yeo.
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 
 </div>
-<br>
 <br>
 
   <div align="center">
