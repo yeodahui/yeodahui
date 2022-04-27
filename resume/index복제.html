@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+    />
+    <title>여다희</title>
+    <style></style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <div class="flex">
+      <header class="bg-gray-100 h-screen border-r border-gray-200 p-8">
+        <h1 class="w-40">
+          <img src="img/logo.png" alt="yeodahui" />
+        </h1>
+        <nav>
+          <ul
+            class="vertical-menu scrollspy mt-16 font-black space-y-4 text-gray-700"
+          >
+            <li>
+              <a href="#About" class="hover:text-red-500">
+                <span class="icon-user text-gray-500"></span>
+                About</a
+              >
+            </li>
+            <li>
+              <a href="#Skills" class="hover:text-red-500">
+                <span class="icon-wrench text-gray-500"></span>
+                Skill Set</a
+              >
+            </li>
+            <li>
+              <a href="#Projects" class="hover:text-red-500">
+                <span class="icon-graduation text-gray-500"></span>
+                Projects</a
+              >
+            </li>
+            <li>
+              <a href="#Experience" class="hover:text-red-500">
+                <span class="icon-graduation text-gray-500"></span>
+                Experience</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="p-14 space-y-10">
+        <article
+          id="About"
+          class="grid grid-cols-4 gap-8 p-8 shadow-lg rounded-lg bg-white"
+        >
+          <h2 class="col-span-4 text-3xl font-bold text-gray-700">About me</h2>
+          <img
+            src="img/profile.jpg"
+            alt="프로필"
+            class="rounded-full w-56 col-span-4 md:col-span-1"
+          />
+          <div class="col-span-4 md:col-span-3">
+            <p class="text-gray-600">
+              프론트엔드 개발자 여다희 입니다.
+              <br />
+              동료와 함께하는 학습과 성장을 좋아하며, 빠른 피드백과 따뜻한
+              커뮤니케이션의 공존을 위해 고민합니다.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 my-4">Contact</h3>
+            <ul class="space-y-2 mb-5 text-gray-500">
+              <li><span class="font-bold mr-2">Phone</span> 010-0000-0000</li>
+              <li>
+                <span class="font-bold mr-2">Email</span> yeodahui.dev@gmail.com
+              </li>
+            </ul>
+            <h3 class="text-xl font-bold text-gray-700 my-4">Channel</h3>
+            <ul class="flex flex-wrap gap-2 mb-5">
+              <li class="w-62">
+                <a
+                  href="https://github.com/yeodahui"
+                  class="px-5 py-2 text-sm font-semibold rounded-full bg-gray-700 text-white"
+                >
+                  <span class="icon-social-github"></span> GitHub
+                </a>
+              </li>
+              <li class="w-62">
+                <a
+                  href="https://github.com/yeodahui"
+                  class="w-5 px-6 py-2 text-sm font-semibold rounded-full bg-teal-400 text-white"
+                >
+                  <span class="icon-note"></span> Blog
+                </a>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article
+          class="grid grid-cols-4 gap-6 p-8 shadow-lg rounded-lg bg-white"
+        >
+          <h2 id="Skiils" class="col-span-4 text-3xl font-bold text-gray-700">
+            Skill Set
+          </h2>
+          <section
+            class="col-span-4 md:col-span-2 border-teal-500 border-t-8 rounded-lg bg-gray-100 shadow-md p-8"
+          >
+            <h3 class="text-xl font-bold text-gray-700 mb-5">Front-End</h3>
+            <ul class="ml-5 space-y-3 list-disc text-gray-700">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>JQuery</li>
+              <li>SaSS</li>
+              <li>Bootstrap</li>
+              <li>Tailwind</li>
+            </ul>
+          </section>
+          <section
+            class="col-span-4 md:col-span-2 space-y-5 border-teal-500 border-t-8 rounded-lg bg-gray-100 shadow-md p-8"
+          >
+            <h3 class="text-xl font-bold text-gray-700">Colaboration</h3>
+            <ul class="ml-5 space-y-3 list-disc text-gray-700">
+              <li>git, GitHub</li>
+              <li>Notion</li>
+            </ul>
+            <h3 class="text-xl font-bold text-gray-700">Design</h3>
+            <ul class="ml-5 space-y-3 list-disc text-gray-700">
+              <li>Adobe Photoshop</li>
+              <li>Figma</li>
+            </ul>
+          </section>
+        </article>
+        <article
+          class="grid grid-cols-4 gap-6 p-8 shadow-lg rounded-lg bg-white"
+        >
+          <h2 id="Projects" class="col-span-4 text-3xl font-bold text-gray-700">
+            Projects
+          </h2>
+          <ul class="col-span-4 space-y-10">
+            <li class="text-gray-500 sm:space-y-5 sm:space-y-0 flex flex-wrap">
+              <div
+                class="sm:w-full md:w-1/3 sm:border-b-2 md:border-r-2 md:border-b-0 border-gray-500"
+              >
+                <h3 class="text-xl font-bold text-gray-700">감귤마켓</h3>
+                <p class="mb-2">2022.06.17 ~ 2022.06.24</p>
+                <a href="https://github.com/" class="block underline">
+                  <span class="icon-arrow-right-circle"></span>
+                  Repo.
+                </a>
+              </div>
+              <div class="sm:w-full md:w-2/3 space-y-2 pl-5">
+                <p>제주지역 감귤 오픈마켓 서비스</p>
+                <ul class="list-disc ml-8">
+                  <li>SaSS, JavaScript, React.js</li>
+                  <li>상품 관리 페이지</li>
+                  <li>게시글 상세 페이지</li>
+                  <li>채팅 및 챗봇 기능</li>
+                </ul>
+              </div>
+            </li>
+            <li class="text-gray-500 sm:space-y-5 sm:space-y-0 flex flex-wrap">
+              <div
+                class="sm:w-full md:w-1/3 sm:border-b-2 md:border-r-2 md:border-b-0 border-gray-500"
+              >
+                <h3 class="text-xl font-bold text-gray-700">사자의 옷장</h3>
+                <p class="mb-2">2022.05.22 ~ 2022.05.25</p>
+                <a href="https://github.com/" class="block underline">
+                  <span class="icon-arrow-right-circle"></span>
+                  Repo.
+                </a>
+              </div>
+              <div class="sm:w-full md:w-2/3 space-y-2 pl-5">
+                <p>쇼핑몰 랜딩페이지 제작</p>
+                <ul class="list-disc ml-8">
+                  <li>Bootstrap, SaSS, JavaScript, React.js</li>
+                  <li>전체 페이지 레이아웃</li>
+                  <li>상품 목록 페이지</li>
+                  <li>구매 후기 모달</li>
+                </ul>
+              </div>
+            </li>
+            <li class="text-gray-500 sm:space-y-5 sm:space-y-0 flex flex-wrap">
+              <div
+                class="sm:w-full md:w-1/3 sm:border-b-2 md:border-r-2 md:border-b-0 border-gray-500"
+              >
+                <h3 class="text-xl font-bold text-gray-700">벤딩 머신</h3>
+                <p class="mb-2">2022.04.10 ~ 2022.04.12</p>
+                <a href="https://github.com/" class="block underline">
+                  <span class="icon-arrow-right-circle"></span>
+                  Repo.
+                </a>
+              </div>
+              <div class="sm:w-full md:w-2/3 space-y-2 pl-5">
+                <p>자판기에서 음료를 뽑을 수 있는 사이트</p>
+                <ul class="list-disc ml-8">
+                  <li>SaSS, JavaScript</li>
+                  <li>자판기 동전 투입 기능</li>
+                  <li>음료 목록 아이템 CRUD</li>
+                </ul>
+              </div>
+            </li>
+            <li class="text-gray-500 sm:space-y-5 sm:space-y-0 flex flex-wrap">
+              <div
+                class="sm:w-full md:w-1/3 sm:border-b-2 md:border-r-2 md:border-b-0 border-gray-500"
+              >
+                <h3 class="text-xl font-bold text-gray-700">1만 시간의 법칙</h3>
+                <p class="mb-2">2022.04.20 ~ 2022.04.21</p>
+                <a href="https://github.com/" class="block underline">
+                  <span class="icon-arrow-right-circle"></span>
+                  Repo.
+                </a>
+              </div>
+              <div class="sm:w-full md:w-2/3 space-y-2 pl-5">
+                <p>
+                  하루 공부시간에 따라 전문가가 되기까지 며칠 남았는지
+                  계산해주는 사이트
+                </p>
+                <ul class="list-disc ml-8">
+                  <li>SaSS, JavaScript</li>
+                  <li>공부시간 입력 및 계산 결과 출력</li>
+                  <li>모달</li>
+                  <li>현재페이지 URL 공유</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </article>
+        <article
+          class="grid grid-cols-4 gap-6 p-8 shadow-lg rounded-lg bg-white"
+        >
+          <h2 id="Projects" class="col-span-4 text-3xl font-bold text-gray-700">
+            Experience
+          </h2>
+          <ul class="col-span-4 list-disc space-y-5 ml-8 text-gray-500">
+            <li>
+              <h3 class="text-lg font-bold text-gray-700">
+                OO 대학교 컴퓨터공학과 (휴학)
+              </h3>
+              <p class="mb-2">2019.03 ~</p>
+            </li>
+            <li>
+              <h3 class="text-lg font-bold text-gray-700">
+                멋쟁이사자처럼 Front-End School 2기 수료
+              </h3>
+              <p class="mb-2">2022.03~2022.08</p>
+            </li>
+            <li>
+              <h3 class="text-lg font-bold text-gray-700">
+                《기본이 되는 React》 집필
+              </h3>
+              <p class="mb-2">2022.07~2022.09</p>
+            </li>
+          </ul>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
